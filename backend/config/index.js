@@ -1,5 +1,5 @@
 module.exports = {
-  enviroment: process.env.NODE_ENV || 'development',
+  environment: process.env.NODE_ENV || 'development',
   port: process.env.PORT || 8000,
   dbFile: process.env.DB_FILE ,
   jwtConfig: {
